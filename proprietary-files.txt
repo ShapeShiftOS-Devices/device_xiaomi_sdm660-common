@@ -126,8 +126,8 @@ vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d11a6abbaddbfee605c57a1a235c1da3011ee068
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7d6e730a1d7ce25
 
-# Charger - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/hvdcp_opti|31fe37f97728d257fdb8d34ba7bec6b308879bd5
+# Charger - from LA.UM.8.2.r1-07400-sdm660.0
+vendor/bin/hvdcp_opti|2ec1df65507776891f729cf1784579dc703d05cb
 
 # CNE - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/CneApp/CneApp.apk|67dd058d8e665a8606c1ff6c3980e844a9bf323e
