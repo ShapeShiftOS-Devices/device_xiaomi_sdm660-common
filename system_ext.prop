@@ -1,4 +1,5 @@
 
 # QCOM
-persist.vendor.dpm.feature=1    
+persist.vendor.dpm.feature=1
 persist.vendor.dpm.nsrm.bkg.evt=3955
+persist.vendor.dpmhalservice.enable=1
