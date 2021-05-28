@@ -130,14 +130,6 @@ $(EGL_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(EGL_SYMLINKS)
 
-METADATA_SYMLINKS := $(TARGET_ROOT_OUT)/metadata
-$(METADATA_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Creating $@"
-	@mkdir -p $(TARGET_ROOT_OUT)/metadata
-	$(hide) ln -sf /data/apex $@/apex
-
-ALL_DEFAULT_INSTALLED_MODULES += $(METADATA_SYMLINKS)
-
 subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
 $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 endif
