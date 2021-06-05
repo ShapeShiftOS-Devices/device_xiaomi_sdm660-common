@@ -5,7 +5,7 @@ type thermal_engine_prop, property_type;
 # Dirac
 type dirac_prop, property_type;
 
-# QTI Thermal
+# Thermal
 type vendor_thermal_prop, property_type;
 
 # Power

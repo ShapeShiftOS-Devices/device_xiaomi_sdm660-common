@@ -587,7 +587,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@2.0-service.mock
 
 # USB
 PRODUCT_PACKAGES += \
